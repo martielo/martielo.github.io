@@ -18,8 +18,8 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo blog theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
+    description: 'Marcelo Ribeiro Dev Blog'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -41,9 +41,9 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Marcelo Ribeiro. This work is licensed under {license}'
+    notice: '© {year} [**Marcelo Ribeiro**](https://chewie.dev)'
     license:
-      enable: true
+      enable: false
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
@@ -74,9 +74,9 @@ features:
     gravatar: false
     shape: circle
   comment:
-    provider: ''
+    provider: 'disqus'
     disqus:
-      shortname: ''
+      shortname: 'chewie.dev'
       show_count: true
     commento:
       url: ''
