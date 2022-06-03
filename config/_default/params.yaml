@@ -74,9 +74,9 @@ features:
     gravatar: false
     shape: circle
   comment:
-    provider: 'disqus'
+    provider: ''
     disqus:
-      shortname: 'chewie.dev'
+      shortname: ''
       show_count: true
     commento:
       url: ''
