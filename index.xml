@@ -1,1 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Marcelo Ribeiro</title><link>/</link><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><description>Marcelo Ribeiro</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 02 Jun 2022 00:00:00 +0000</lastBuildDate><image><url>/media/icon_huac8ffdb9da51bc9dee785b2f554fa3fa_17298_512x512_fill_lanczos_center_3.png</url><title>Marcelo Ribeiro</title><link>/</link></image><item><title>Primeira postagem</title><link>/post/first-post/</link><pubDate>Thu, 02 Jun 2022 00:00:00 +0000</pubDate><guid>/post/first-post/</guid><description>&lt;p>Primeira postagem&lt;/p></description></item><item><title/><link>/admin/config.yml</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/admin/config.yml</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Marcelo Ribeiro - .NET Developer</title><link>/</link><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><description>Marcelo Ribeiro - .NET Developer</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 02 Jun 2022 00:00:00 +0000</lastBuildDate><image><url>/media/icon_huac8ffdb9da51bc9dee785b2f554fa3fa_17298_512x512_fill_lanczos_center_3.png</url><title>Marcelo Ribeiro - .NET Developer</title><link>/</link></image><item><title>Complexidade everywhere</title><link>/post/complexidade-everywhere/</link><pubDate>Thu, 02 Jun 2022 00:00:00 +0000</pubDate><guid>/post/complexidade-everywhere/</guid><description>&lt;h2 id="o-que-quero-dizer-com-isso">O que quero dizer com isso?&lt;/h2>
+&lt;p>Trabalhar em consultoria me traz a oportunidade de atuar em vários projetos de empresas completamente diferentes e, embora difiram, certas práticas parecem não mudar.&lt;/p>
+&lt;p>Percebo em diversos lugares aplicações sendo criadas utilizando arquitetura de N camadas e com conceitos de DDD. Por que será? Porque virou &lt;code>boilerplate&lt;/code>! Tornou-se sinônimo de &amp;ldquo;projeto bem arquiteturado&amp;rdquo;, logo, TODO projeto segue essa estrutura, dois mais simples ao mais complexos.&lt;/p>
+&lt;h4 id="o-ddd-existe-para-nos-ajudar-a-atacar-as-complexidades-no-coração-do-softwarehttpswwwamazoncombrdomain-driven-design-eric-evansdp8550800651">O DDD existe para nos ajudar a &lt;a href="https://www.amazon.com.br/Domain-Driven-Design-Eric-Evans/dp/8550800651" target="_blank" rel="noopener">&lt;strong>atacar as complexidades no coração do software&lt;/strong>&lt;/a>&amp;hellip;&lt;/h4>
+&lt;p>&amp;hellip;quando elas existem! E não para justificar a criação de um projeto com inúmeras camadas e com seus conceitos &amp;ldquo;&lt;em>só porque é legal e/ou porque parece ser mais certo&lt;/em>&amp;rdquo;.&lt;/p>
+&lt;p>Se você é desenvolvedor, já deve ter encontrado um projeto com uma estrutura mais ou menos assim (Se é desenvolvedor .NET, 99% são as chances que sim):&lt;/p>
+&lt;pre>&lt;code>[Empresa].[Projeto].[API] -&amp;gt; Controllers
+[Empresa].[Projeto].[Domain] -&amp;gt; Entities
+[Empresa].[Projeto].[Application] -&amp;gt; Services, Handlers
+[Empresa].[Projeto].[Infrastructure] -&amp;gt; Repositories, Context
+&lt;/code>&lt;/pre>
+&lt;p>Vamos supor que os projetos mais simples de uma empresa sejam CRUDs, não há regras de negócio, apenas validações de inputs. O &amp;ldquo;Domain&amp;rdquo; &lt;code>(que não existe)&lt;/code> naturalmente só vai conter Modelos anêmicos. Aqui é apenas CRUD, não tem como dar muito errado&amp;hellip; &lt;strong>Por que então gerar toda essa complexidade?&lt;/strong>&lt;/p>
+&lt;p>Agora vamos supor um cenário de um projeto mais complexo: uma empresa que tenha necessidades muito específicas com regras de negócio que evoluam constantemente. O projeto precisa evoluir conforme a empresa evolui e nesse caso é necessário tratar o Domínio &lt;code>(que dessa vez realmente existe)&lt;/code> com muita delicadeza.&lt;/p>
+&lt;p>&lt;code>Ocorre que muito provalvemente, o suposto projeto mais complexo será tratado como o projeto mais simples!&lt;/code>&lt;/p>
+&lt;p>&amp;ndash; Mas agora a complexidade existe. Faria sentido criar as N camadas e &amp;ldquo;usar&amp;rdquo; DDD, não?&lt;/p>
+&lt;p>NÃO! A ideia é &lt;strong>atacar&lt;/strong> a complexidade, não gerá-la. Criar camadas e mais camadas e utilizar conceitos de DDD como foi feito nos projeto CRUDs, não resolve NADA por si só. É preciso entender os PORQUÊS das escolhas.&lt;/p>
+&lt;p>Além do mais, muito provavelmente o projeto será executado como os mais simples:&lt;/p>
+&lt;pre>&lt;code>1. 'Criar o projeto com o Boilerplate (&amp;quot;N Camadas&amp;quot; + &amp;quot;DDD&amp;quot;)'
+2. 'Criar Models'
+3. 'Criar tabelas no banco de dados'
+4. 'Criar services e mais services'
+5. 'Repetir os itens [2, 3, 4, 5]'
+&lt;/code>&lt;/pre>
+&lt;p>Diagamos que esse projeto realmente exista e a primeira entrega tenha sido um sucesso&amp;hellip;&lt;/p>
+&lt;h4 id="mas-vírgula">&amp;hellip;MAS VÍRGULA&lt;/h4>
+&lt;p>Acontece que o Domínio é complexo! Ele vai evoluir, mais &lt;strong>processos&lt;/strong> surgirão e o projeto e nem a equipe estão preparados para isso. A Domain Model é anêmica, os processos e regras de negócio estão acoplados com serviços de aplicação. Como serão as próximas entregas dessa equipe?&lt;/p>
+&lt;p>Pela minha experência, posso dizer que geralmente termina com a famosa &lt;a href="https://en.wikipedia.org/wiki/Big_ball_of_mud" target="_blank" rel="noopener">&lt;code>Big Ball of Mud&lt;/code>&lt;/a>.&lt;/p>
+&lt;h2 id="conclusão">Conclusão&lt;/h2>
+&lt;p>Mantenha simples o que é para ser simples (&lt;code>Keep it simple, stupid&lt;/code>)! Lembre-se que não existe bala de prata e trate de complexidades como elas devem ser tratadas. Uma dica: &lt;code>foque no domínio&lt;/code>.&lt;/p>
+&lt;p>Sim, a palavra &amp;ldquo;complexid4de&amp;rdquo; foi utilizada 7 vezes, e essa não é a oitava.&lt;/p></description></item></channel></rss>
