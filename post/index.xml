@@ -1,4 +1,78 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts | Marcelo Ribeiro - .NET Developer</title><link>/post/</link><atom:link href="/post/index.xml" rel="self" type="application/rss+xml"/><description>Posts</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 02 Jun 2022 00:00:00 +0000</lastBuildDate><image><url>/media/icon_huac8ffdb9da51bc9dee785b2f554fa3fa_17298_512x512_fill_lanczos_center_3.png</url><title>Posts</title><link>/post/</link></image><item><title>Complexidade everywhere</title><link>/post/complexidade-everywhere/</link><pubDate>Thu, 02 Jun 2022 00:00:00 +0000</pubDate><guid>/post/complexidade-everywhere/</guid><description>&lt;h2 id="o-que-quero-dizer-com-isso">O que quero dizer com isso?&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts | Marcelo Ribeiro - .NET Developer</title><link>/post/</link><atom:link href="/post/index.xml" rel="self" type="application/rss+xml"/><description>Posts</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 17 Dec 2023 00:00:00 +0000</lastBuildDate><image><url>/media/icon_huac8ffdb9da51bc9dee785b2f554fa3fa_17298_512x512_fill_lanczos_center_3.png</url><title>Posts</title><link>/post/</link></image><item><title>A toca do coelho da privacidade digital</title><link>/post/privacidade-digital/</link><pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate><guid>/post/privacidade-digital/</guid><description>&lt;p>Você talvez não saiba, mas as grandes corporações e as grandes nações possuem diversos métodos e subterfúgios para invadir sua privacidade e utilizar dos recursos tecnológicos como instrumentos de controle social.&lt;/p>
+&lt;p>Pessoas como Edward Snowden nos deixam claro a profundidade da toca do coelho, no entanto, &lt;strong>comecemos pelo começo&lt;/strong>.&lt;/p>
+&lt;h2 id="começando-pelo-começo">Começando pelo começo&lt;/h2>
+&lt;p>Você provavelmente chegou até aqui através de um navegador ou aplicativo, portanto, tenho algumas perguntas para você:&lt;/p>
+&lt;ul>
+&lt;li>Qual &lt;strong>navegador&lt;/strong> você utiliza?&lt;/li>
+&lt;li>Qual &lt;strong>motor de busca&lt;/strong> você utiliza?&lt;/li>
+&lt;li>Você usa uma conta conectadas a &lt;strong>serviços do Google&lt;/strong> em seu navegador?&lt;/li>
+&lt;/ul>
+&lt;p>E também algumas perguntas sobre o dispositivo que você está utilizando:&lt;/p>
+&lt;ul>
+&lt;li>Qual &lt;strong>sistema operacional&lt;/strong> você está utilizando?&lt;/li>
+&lt;li>Qual &lt;strong>hardware&lt;/strong> você está utilizando?&lt;/li>
+&lt;/ul>
+&lt;h3 id="navegadores-e-motores-de-busca">Navegadores e motores de busca&lt;/h3>
+&lt;p>Se você utiliza &lt;strong>Google Chrome&lt;/strong> ou &lt;strong>Microsoft Edge&lt;/strong>, por exemplo, saiba que o Google e a Microsoft coletam seus dados, no entanto, sabem o que você está fazendo no navegador.&lt;/p>
+&lt;p>Se você utiliza um navegador com foco na privacidade como o &lt;strong>Mozilla Firefox&lt;/strong> e utiliza o Google como motor de busca e/ou utiliza os serviços Google, saiba que &lt;em>não faz diferença&lt;/em>, o Google vai continuar coletando dados da maioria dos sites que você visitar.&lt;/p>
+&lt;p>Se você utiliza um navegador e um motor de busca que respeitam sua privacidade, utiliza um bloqueador de anúncios e não utiliza os serviços Google, ainda assim você talvez possa ser identificado de outras formas, tais como seu &lt;strong>endereço IP&lt;/strong>, &lt;strong>cookies&lt;/strong> e por métodos mais avançados como &lt;em>Fingerprinting&lt;/em>.&lt;/p>
+&lt;p>Ferramentas de &lt;em>Fingerprint&lt;/em> são capazes de coletar dados como seu &lt;strong>Sistema Operacional&lt;/strong> e seu &lt;strong>idioma&lt;/strong>, o &lt;strong>navegador&lt;/strong> que você está utilizando, &lt;strong>extensões&lt;/strong> instaladas no navegador e muito mais. Com essas informações, é possível criar uma impressão digital única que identifique o usuário.&lt;/p>
+&lt;p>Teste você mesmo &lt;a href="https://fingerprint.com/demo/" target="_blank" rel="noopener">&lt;code>clicando aqui&lt;/code>&lt;/a>.&lt;/p>
+&lt;h3 id="sistemas-operacionais">Sistemas Operacionais&lt;/h3>
+&lt;h4 id="windows-microsoft">Windows (Microsoft)&lt;/h4>
+&lt;p>Windows é uma caixa preta, seu código-fonte é fechado e se comporta como &lt;em>spyware&lt;/em>, principalmente nas versões mais recentes. Possui diversos serviços de telemetria que coletam seus dados e os vendem para empresas de anúncios.&lt;/p>
+&lt;p>Recomendo que assista &lt;a href="https://www.youtube.com/watch?v=IT4vDfA_4NI" target="_blank" rel="noopener">&lt;code>esse vídeo&lt;/code>&lt;/a> que demonstra o aumento da coleta de dados do Windows, comparando o Windows XP com o 11.&lt;/p>
+&lt;h4 id="macos-apple">MacOS (Apple)&lt;/h4>
+&lt;p>Enquanto na questão segurança o MacOS seja sem dúvidas mais seguro, seu código-fonte também é fechado e possui serviços de telemetria que coletam seus dados, assim como o &lt;strong>Windows&lt;/strong>.&lt;/p>
+&lt;h4 id="linux">Linux&lt;/h4>
+&lt;p>Caso você esteja usando Linux, você provavelmente já sabe: é mais seguro e depende da distro para analisarmos questões de privacidade. No entanto, a descida pela toca do coelho ainda &lt;strong>não acabou&lt;/strong>, as outras perguntas precisam ser respondidas.&lt;/p>
+&lt;h3 id="hardware">Hardware&lt;/h3>
+&lt;h4 id="marksmartphonesmark">&lt;mark>Smartphones&lt;/mark>&lt;/h4>
+&lt;p>Hoje em dia os smartphones são muito mais utilizados que os desktops, principalmente para o consumo de &lt;strong>redes sociais&lt;/strong> e &lt;strong>aplicativos de mensagens&lt;/strong>. Caso você esteja usando um smartphone, grandes chances são que seu sistema operacional seja &lt;strong>Android&lt;/strong> ou &lt;strong>iOS&lt;/strong>.&lt;/p>
+&lt;h5 id="android-google">Android (Google)&lt;/h5>
+&lt;p>Caso você esteja utilizando Android, você deve saber que é um sistema operacional do Google que podemos considerar de código fechado, visto que o sistema instalado na maioria dos celulares dependem de &lt;strong>serviços proprietários&lt;/strong> do Google para funcionar. O Google possui acesso a tudo o que você faz no celular.&lt;/p>
+&lt;h5 id="ios-apple">iOS (Apple)&lt;/h5>
+&lt;p>O sistema iOS é ainda mais fechado que o Android e e seus dados estão sendo coletados pela &lt;strong>Apple&lt;/strong>.&lt;/p>
+&lt;h4 id="markcomputadoresmark">&lt;mark>Computadores&lt;/mark>&lt;/h4>
+&lt;p>Você pode ser um usuário minucioso de Linux e pensar que está livre das mãos das grandes corporações, no entanto, eu tenho uma pergunta para você: &lt;mark>qual processador você está utilizando? Intel? AMD?&lt;/mark>
+Aqui, você vai perceber que a toca do coelho é mais profunda do que parece.&lt;/p>
+&lt;h5 id="intel">Intel&lt;/h5>
+&lt;p>Se você utiliza um processador Intel fabricado após 2008, ele possui um componente chamado &lt;em>Intel Management Engine&lt;/em> que é um subsistema autônomo que roda o sistema operacional &lt;strong>MINIX&lt;/strong> paralelamente em uma camada abaixo do seu sistema operacional normal (Windows, MacOS, Linux etc.). Esse subsistema possui acesso à Internet e possui controle do que você faz em seu computador. As capacidades desse subsistema não terminam por aí, ele é capaz de operar mesmo que seu computador esteja desligado, mas conectado a uma fonte de energia.&lt;/p>
+&lt;h5 id="amd">AMD&lt;/h5>
+&lt;p>Bom, mas eu utilizo processador AMD, então devo estar bem, certo? &lt;strong>ERRADO!&lt;/strong> Os processadores AMD possuem um mecanismo semelhante conhecido como PSP (&lt;em>Platform Security Processor&lt;/em>) que fora introduzido em 2013.&lt;/p>
+&lt;p>Eu não posso ser injusto e dizer que é simples invadir um computador através desses mecanismos, depende de uma série de fatores, &lt;a href="https://mjg59.dreamwidth.org/48429.html" target="_blank" rel="noopener">&lt;code>veja aqui&lt;/code>&lt;/a> mais sobre a vulnerabildade do Intel ME.
+Ainda assim, é bastante preocupante e sem dúvidas, uma ameaça para a privacidade digital.&lt;/p>
+&lt;h2 id="lembrai-lembrai-de-edward-snowden">Lembrai, lembrai de Edward Snowden&lt;/h2>
+&lt;p>No começo desse artigo citei Snowden e disse que ele deixou claro até onde a toca do coelho vai&amp;hellip;&lt;/p>
+&lt;p>Snowden incomodou muita gente revelando a capacidade de espionagem da NSA (Agência de Segurança Nacional dos EUA) e deixou claro que a agência possui um backdoor em todos os principais sistemas computacionais que utilizamos e conseguem acesso direto aos dados sem passar por pedidos judiciais.&lt;/p>
+&lt;p>Isso foi revelado pelo vazamento dos programas de vigilância &lt;strong>PRISM&lt;/strong> e &lt;strong>XKEYSCORE&lt;/strong> da NSA.&lt;/p>
+&lt;figure id="figure-prism">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Programa PRISM e a coleta de dados de grandes provedores" srcset="
+/post/privacidade-digital/prism_hu58c3b8cd7d62d5a95f8cdd4a90439ee1_91710_0b7f53ed1920fca8d91f346699fed57f.webp 400w,
+/post/privacidade-digital/prism_hu58c3b8cd7d62d5a95f8cdd4a90439ee1_91710_510f656172a84396748a40c9c52a0b87.webp 760w,
+/post/privacidade-digital/prism_hu58c3b8cd7d62d5a95f8cdd4a90439ee1_91710_1200x1200_fit_q90_h2_lanczos.webp 1200w"
+src="/post/privacidade-digital/prism_hu58c3b8cd7d62d5a95f8cdd4a90439ee1_91710_0b7f53ed1920fca8d91f346699fed57f.webp"
+width="760"
+height="507"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Programa PRISM e a coleta de dados de grandes provedores
+&lt;/figcaption>&lt;/figure>
+&lt;h2 id="por-que-eu-me-preocuparia-com-tudo-isso">Por que eu me preocuparia com tudo isso?&lt;/h2>
+&lt;p>É muito comum as pessoas não se importarem com esse assunto por pensarem que por não ter influência nada disso importa, afinal há tantas pessoas por aí, por que se importariam justamente com seus dados, não é mesmo?&lt;/p>
+&lt;p>Um problema claro ao abdicar de sua privacidade é que certamente você estará mais vulnerável a ataques hackers, ataques de engenharia social e ataques que utilizam de inteligência artificial, sendo esse último cada vez mais comum e com hardwares cada vez mais poderosos, está se tornando questão de tempo para termos muita dificuldade em diferenciar o que é real e o que não é.&lt;/p>
+&lt;p>&lt;mark>&amp;ldquo;Uma provocação: imagine que um político com uma grande esfera de poder seja chantageado, pois não tomou cuidado com sua privacidade no passado. Seria um grande problema, não?&amp;rdquo; Será que isso já não acontece?&amp;quot;&lt;/mark>&lt;/p>
+&lt;p>O problema não para por aí, ao não se preocupar com essa questão, você provavelmente aceitará mais programas que invadirão sua privacidade e não se dará conta da gravidade.&lt;/p>
+&lt;h3 id="vamos-falar-de-dinheiro-você-certamente-se-preocupa-com-ele-não">Vamos falar de dinheiro? Você certamente se preocupa com ele! Não?&lt;/h3>
+&lt;p>É quase certo que o dinheiro da forma que conhecemos hoje irá mudar ainda nessa década e o papel-moeda desaparecerá; no Brasil, já estão trabalhando para isso: &lt;strong>Drex&lt;/strong>, o real digital.&lt;/p>
+&lt;p>Com a implantação do Drex, toda transação dependerá de uma instituição financeira e por ser uma moeda centralizada e regulada pelo Banco Central, teremos uma entidade poderosa com controle total e conhecimento pleno do que acontece com o dinheiro a todo o momento.&lt;/p>
+&lt;p>&lt;mark>Imagine um Brasil distópico em que ditadores tomem o poder e o seu Zé (nosso personagem fictício) resolva participar de uma manifestação contra o governo. Nesse Brasil distópico, o seu Zé foi flagrado por sistemas de vigilância e seu dinheiro e das pessoas que o apoiaram em redes sociais foi congelado.&lt;/mark>&lt;/p>
+&lt;h2 id="o-que-quero-dizer-com-isso-tudo">O que quero dizer com isso tudo?&lt;/h2>
+&lt;p>Não podemos confiar na liberdade quando ela não está em nossas mãos. Ao permitirmos dispositivos que coletam nossos dados e nos monitoram em troca da conveniência e simplicidade do dia a dia, paradoxalmente renunciamos nossas liberdades.&lt;/p>
+&lt;p>É chato, não é nada conveniente na maioria das vezes, requer dedicação, mas recomendo que você faça hoje o que você pode com os recursos que você possui para ter mais privacidade. Recomendo que comece por &lt;a href="https://www.privacyguides.org/" target="_blank" rel="noopener">&lt;code>aqui&lt;/code>&lt;/a>.&lt;/p>
+&lt;p>Privacidade é um assunto extremamente amplo. Eu poderia escrever horas de conteúdo e certamente faltaria abordar mais pontos, no entanto, espero estar contribuindo de alguma forma.&lt;/p>
+&lt;p>&lt;strong>Deixando claro: o que escrevo aqui são minha e somente minha opinião e reflexões.&lt;/strong>&lt;/p></description></item><item><title>Complexidade everywhere</title><link>/post/complexidade-everywhere/</link><pubDate>Thu, 02 Jun 2022 00:00:00 +0000</pubDate><guid>/post/complexidade-everywhere/</guid><description>&lt;h2 id="o-que-quero-dizer-com-isso">O que quero dizer com isso?&lt;/h2>
 &lt;p>Trabalhar em consultoria me traz a oportunidade de atuar em vários projetos de empresas completamente diferentes e, embora difiram, certas práticas parecem não mudar.&lt;/p>
 &lt;p>Percebo em diversos lugares aplicações sendo criadas utilizando arquitetura de N camadas e com conceitos de DDD. Por que será? Porque virou &lt;code>boilerplate&lt;/code>! Tornou-se sinônimo de &amp;ldquo;projeto bem arquiteturado&amp;rdquo;, logo, TODO projeto segue essa estrutura, dois mais simples ao mais complexos.&lt;/p>
 &lt;h4 id="o-ddd-existe-para-nos-ajudar-a-atacar-as-complexidades-no-coração-do-softwarehttpswwwamazoncombrdomain-driven-design-eric-evansdp8550800651">O DDD existe para nos ajudar a &lt;a href="https://www.amazon.com.br/Domain-Driven-Design-Eric-Evans/dp/8550800651" target="_blank" rel="noopener">&lt;strong>atacar as complexidades no coração do software&lt;/strong>&lt;/a>&amp;hellip;&lt;/h4>
